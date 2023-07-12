@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job enrollment</title>
+    <style>
+        div{
+            background-color: gray;
+            width: 300px;
+            border-radius: 5px;
+            padding: 10px;
+            display: inline-block;
+            box-shadow: 0 0 10px black;
+        }
+        input{
+            margin: 5px;
+            border-radius: 5px;
+
+        }
+        .button{
+            background-color: black;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <h2>job enrollment</h2>
+
+
+            <label for="">username</label><br>
+            <input type="text" placeholder="username"><br>
+
+
+            <label for="">password</label><br>
+            <input type="password" placeholder="password"><br>
+
+
+            <label for="">email</label><br>
+            <input type="email" placeholder="email"><br>
+
+
+            <label for="">about yourself</label><br>
+            <textarea cols="20" rows="10" placeholder="bio"></textarea><br>
+
+
+            <label for="">designation</label><br>
+            <select name="" id="">
+                <option value="software developer">software developer</option>
+                <option value="analasyst">analasyst</option>
+                <option value="engineer">engineer</option>
+                <option value="decoder">decoder</option>
+                <option value="front end developer">front end developer</option>
+            </select><br>
+
+            <label for="">dob</label><br>
+            <input type="datetime-local"><br>
+
+
+            <label for="">your image</label><br>
+            <input type="file"><br>
+
+            <label for="">mobile number</label><br>
+            <input type="number"><br>
+
+
+            <label for="">programming level</label><br>
+            <input type="checkbox" value="beginner">beginner
+            <input type="checkbox" value="intermediate">intermaediate
+            <input type="checkbox" value="professional">professional<br>
+
+
+            <label for="">expertise in</label><br>
+            <input type="radio" value="backend">backend
+            <input type="radio" value="frontend">frontend
+            <input type="radio" value="database">database<br>
+
+
+            <label for="">website url</label><br>
+            <input type="url" placeholder="your website"><br>
+
+            <input class="button" type="submit" value="enroll">
+
+            <input class="button" type="reset" value="reset">
+
+        </div>
+    </form>
+    
+</body>
+</html>
